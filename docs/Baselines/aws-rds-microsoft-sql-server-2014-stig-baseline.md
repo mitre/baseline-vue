@@ -1,5 +1,8 @@
 # aws-rds-microsoft-sql-server-2014-stig-baseline
 
+
+	
+<Weather/>
 InSpec profile to validate the secure configuration of AWS RDS Microsoft SQL Server 2014, against [DISA](https://iase.disa.mil/stigs/)'s **Microsoft Sql Server 2014 Security Technical Implementation Guide (STIG) Version 1, Release 9**.
 
 ## Getting Started  
