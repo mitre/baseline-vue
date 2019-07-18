@@ -5,21 +5,20 @@ module.exports = {
     logo: "/logo.png",
     nav: [
       { text: "Home", link: "/" },
-      { text: "About", link: "/About/" },
-      { text: "Tools", link: "/Tools/" },
-      { text: "Applications", link: "/Applications/" },
-      { text: "Baselines", link: "/Baselines/" },
+      { text: "About", link: "/about/" },
+      { text: "Applications", link: "/applications/" },
+      { text: "Baselines", link: "/baselines/" },
       {
         text: "Community",
         items: [
-          { text: "News", link: "/Community/News/" },
-          { text: "Videos", link: "/Community/Videos/" }
+          { text: "News", link: "/community/news/" },
+          { text: "Videos", link: "/community/videos/" }
         ]
       },
       { text: "GitHub", link: "https://github.com/mitre" }
     ],
     sidebar: {
-      "/Baselines/": [
+      "/applications/": [
         "",
         "nginx-baseline",
         "red-hat-enterprise-linux-6-stig-baseline",

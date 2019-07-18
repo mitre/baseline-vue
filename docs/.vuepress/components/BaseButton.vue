@@ -1,13 +1,19 @@
 <template>
   <div>
-    <button @click="reroute" class="button">
+    <button
+      @click="reroute; sharedData.selectedHistoryRow = this.route; sharedData.showModal = true;"
+      class="button"
+    >
       <slot></slot>
     </button>
   </div>
 </template>
 
 <script>
+import sharedData from "../observables/history.js";
+
 export default {
+  data: () => ({ sharedData }),
   props: {
     name: {
       type: String,
@@ -17,13 +23,13 @@ export default {
   },
   methods: {
     reroute(event) {
-      if (this.$props.route == null) {
-        this.$router.push("/Baselines/");
+      if (this.route == null) {
+        this.$router.push("/applications/");
         alert(
           "The specific route hasn't been found. You will be redirected to a list of the baselines."
         );
       } else {
-        this.$router.push("/Baselines/" + this.$props.route);
+        this.$router.push("/applications/" + this.route);
       }
     }
   }

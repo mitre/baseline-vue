@@ -11,22 +11,22 @@
   "baselines": [
     {
       "name": "MSIIS Server",
-      "route": "microsoft-iis-8.5-server-stig-baseline/",
+      "route": "microsoft-iis-8.5-server-stig-baseline",
       "sections": ["Web Server"]
     },
     {
       "name": "MSIIS Site",
-      "route": "microsoft-iis-8.5-site-stig-baseline/",
+      "route": "microsoft-iis-8.5-site-stig-baseline",
       "sections": ["Web Server"]
     },
     {
       "name": "NGINX",
-      "route": "nginx-baseline/",
+      "route": "nginx-baseline",
       "sections": ["Web Server"]
     },
     {
       "name": "Apache Tomcat",
-      "route": "cis_apache_tomcat_benchmark_8/",
+      "route": "cis_apache_tomcat_benchmark_8",
       "sections": ["Web Server"]
     },
     {
@@ -35,12 +35,12 @@
     },
     {
       "name": "Kubernetes CIS",
-      "route": "cis-kubernetes-benchmark/",
+      "route": "cis-kubernetes-benchmark",
       "sections": ["Containers"]
     },
     {
       "name": "Docker CIS Benchmark",
-      "route": "cis-docker-ce-baseline/",
+      "route": "cis-docker-ce-baseline",
       "sections": ["Containers"]
     },
     {
@@ -49,22 +49,22 @@
     },
     {
       "name": "JBoss STIG",
-      "route": "wildfly-stig-baseline/",
+      "route": "wildfly-stig-baseline",
       "sections": ["Application Server"]
     },
     {
       "name": "RSA Archer",
-      "route": "rsa-archer-6-security-configuration-guide-baseline/",
+      "route": "rsa-archer-6-security-configuration-guide-baseline",
       "sections": ["Application Server"]
     },
     {
       "name": "Postgres (AWS RDS)",
-      "route": "aws-rds-postgres-9-stig-baseline/",
+      "route": "aws-rds-postgres-9-stig-baseline",
       "sections": ["Database"]
     },
     {
       "name": "MSSQL (AWS RDS)",
-      "route": "aws-rds-microsoft-sql-server-2014-stig-baseline/",
+      "route": "aws-rds-microsoft-sql-server-2014-stig-baseline",
       "sections": ["Database"]
     },
     {
@@ -73,7 +73,7 @@
     },
     {
       "name": "MySQL (AWS RDS)",
-      "route": "cis-aws-rds-mysql-server-enterprise-v5.7-baseline/",
+      "route": "cis-aws-rds-mysql-server-enterprise-v5.7-baseline",
       "sections": ["Database"]
     },
     {
@@ -82,22 +82,22 @@
     },
     {
       "name": "MSSQL",
-      "route": "microsoft-sql-server-2014-database-stig-baseline/",
+      "route": "microsoft-sql-server-2014-database-stig-baseline",
       "sections": ["Database"]
     },
     {
       "name": "MongoDB",
-      "route": "mongodb-enterprise-advanced-stig-baseline/",
+      "route": "mongodb-enterprise-advanced-stig-baseline",
       "sections": ["Database"]
     },
     {
       "name": "Oracle DB",
-      "route": "oracle-database-12c-stig-baseline/",
+      "route": "oracle-database-12c-stig-baseline",
       "sections": ["Database"]
     },
     {
       "name": "MySQL",
-      "route": "Oracle-MySQL-Enterprise-Edition-5.7-cis-baseline/",
+      "route": "Oracle-MySQL-Enterprise-Edition-5.7-cis-baseline",
       "sections": ["Database"]
     },
     {
@@ -106,22 +106,22 @@
     },
     {
       "name": "Windows 2012 STIG",
-      "route": "microsoft-windows-2012r2-memberserver-stig-baseline/",
+      "route": "microsoft-windows-2012r2-memberserver-stig-baseline",
       "sections": ["Operating Systems"]
     },
     {
       "name": "Windows 2016 STIG",
-      "route": "stig-microsoft-windows-server-2016-v1r4-baseline/",
+      "route": "stig-microsoft-windows-server-2016-v1r4-baseline",
       "sections": ["Operating Systems"]
     },
     {
       "name": "Ubuntu 16.04 STIG",
-      "route": "stig-canonical-ubuntu-16.04-lts-baseline/",
+      "route": "stig-canonical-ubuntu-16.04-lts-baseline",
       "sections": ["Operating Systems"]
     },
     {
       "name": "AWS CIS Foundations",
-      "route": "cis-aws-foundations-baseline/",
+      "route": "cis-aws-foundations-baseline",
       "sections": ["Network Components"]
     },
     {
@@ -130,12 +130,12 @@
     },
     {
       "name": "AWS RDS Baseline",
-      "route": "cis-aws-rds-infrastructure-baseline/",
+      "route": "cis-aws-rds-infrastructure-baseline",
       "sections": ["Cloud Services"]
     },
     {
       "name": "AWS S3",
-      "route": "aws-s3-baseline/",
+      "route": "aws-s3-baseline",
       "sections": ["Cloud Services"]
     },
     {

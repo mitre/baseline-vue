@@ -1,7 +1,7 @@
 <template lang="html">
   <div>
-
-   <vs-table 
+    <h3 v-show="showModal">{{selectedHistoryRow}}</h3>
+   <vs-table
      max-items="10"
      pagination
      search 
@@ -51,9 +51,9 @@ import Prism from "vue-prism-component";
 import "prismjs/components/prism-ruby";
 import "prismjs/themes/prism.css";
 import inspec_profile from "../assets/sample.json";
+import sharedData from "../observables/history.js";
 
 export default {
-
   components: {
     Prism
   },
@@ -63,6 +63,12 @@ export default {
     },
     profile() {
       return inspec_profile;
+    },
+    showModal() {
+      return sharedData.showModal;
+    },
+    selectedHistoryRow() {
+      return sharedData.selectedHistoryRow;
     }
   }
 };

@@ -2,36 +2,36 @@
   "baselines": [
     {
       "name": "github-repo-name",
-      //"title": "Long title", <= JSON title
-      // "readme": "github-location + README.md",
+      "title": "Long title <= JSON title",
+      "readme": "github-location + README.md",
       "links": [
         {
           "name": "Readme",
           "url": "<<github-repo>>/README.md",
-          "icon": icon-github-document
+          "icon": "icon-github-document"
         },
-         {
-            "name": "InSpec Profile",
-            "url": "https://github.com/mitre/<<name>>",
-            "icon": "icon-github-circled"
-         },
-         {
-            "name": "Ansible Remediation Role",
-            "url": "https://github.com/...",
-            "icon": "icon-github-circled"
-         },
-         {
-            "name": "Chef Remediation Cookbook",
-            "url": "https://github.com/...",
-            "icon": "icon-github-circled"
-         },
-         {
-            "name": "Puppet Remediation Module",
-            "url": "https://github.com/...",
-            "icon": "icon-github-circled"
-         }
+        {
+          "name": "InSpec Profile",
+          "url": "https://github.com/mitre/<<name>>",
+          "icon": "icon-github-circled"
+        },
+        {
+          "name": "Ansible Remediation Role",
+          "url": "https://github.com/...",
+          "icon": "icon-github-circled"
+        },
+        {
+          "name": "Chef Remediation Cookbook",
+          "url": "https://github.com/...",
+          "icon": "icon-github-circled"
+        },
+        {
+          "name": "Puppet Remediation Module",
+          "url": "https://github.com/...",
+          "icon": "icon-github-circled"
+        }
       ],
-      "route": /baseline/<<name>>
+      "route": "/baseline/<<name>>",
       "sections": ["Web Server"]
     },
     {
@@ -167,7 +167,7 @@
       "sections": ["Cloud Services"]
     }
   ],
-    "sections": [
+  "sections": [
     "Web Server",
     "Application Server",
     "Database",
